@@ -1,8 +1,3 @@
-# File Sharing Terminal
-You can now share your files using linux terminal with this simple code of mine.
-
-![File Sharing Terminal](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/FileSharingTerminal-By-zeCh.png)
-
 
 ## Features
 - Uses 3 API

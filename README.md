@@ -3,6 +3,7 @@ You can now share your files using linux terminal with this simple code of mine.
 
 ![File Sharing Terminal](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/FileSharingTerminal-By-zeCh.png)
 
+
 ## Features
 - Uses 3 API
    -
@@ -14,6 +15,7 @@ You can now share your files using linux terminal with this simple code of mine.
    -
    You can also encrypt your files before sharing it to others.
 
+
 ## Installation
 Depends on your linux distro
 > pkg install git -y
@@ -24,11 +26,13 @@ Depends on your linux distro
 
 > bash setup.sh
 
+
 ## To Run
 > bash sharefile.sh
 
 __Just send the download link to someone you want to share your file then he/she can have it by running this simple command__
 > wget https://example-of-downloadlink/yourfile
+
 
 ### EXAMPLES
 - Uploading One File with Encryption
@@ -41,6 +45,7 @@ __Just send the download link to someone you want to share your file then he/she
    -
    ![Example of Uploading Directory and its Contents](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/Directory-and-Contents.jpg)
 
+
 ### Two Ways to Download in Terminal
 __1st Way__
 > wget https://download-link
@@ -48,11 +53,13 @@ __1st Way__
 __2nd Way__
 > curl -O https://download-link
 
+
 ### Decrypting a file
 Just type this command in your terminal and enter the password:
 > ccdecrypt filename.txt.cpt
 
 Here's the example:
+
 ![Decrypting A File](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/Decrypting-File.png)
 
 __OR__
@@ -61,13 +68,16 @@ __OR__
 
 If it's a zip file.
 
+
 __API USED:__
 - BashUpload.com
 - Filepush.co
 - Transfer.sh
 
+
 __TOOLS USED:__
 - ccrypt and zip
+
 
 __NOTE:__
 If you encounter an issue, if you want to correct something, if have any feedbacks, just say it guyz. 

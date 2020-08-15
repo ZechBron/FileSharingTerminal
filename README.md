@@ -30,9 +30,6 @@ Depends on your linux distro
 ## To Run
 > bash sharefile.sh
 
-__Just send the download link to someone you want to share your file then he/she can have it by running this simple command__
-> wget https://example-of-downloadlink/yourfile
-
 
 ### EXAMPLES
 - Uploading One File with Encryption

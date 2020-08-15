@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+# File Sharing Terminal
+You can now share your files using linux terminal with this simple code of mine.
 
-You can use the [editor on GitHub](https://github.com/ZechBron/FileSharingTerminal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![File Sharing Terminal](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/FileSharingTerminal-By-zeCh.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Features
+- Uses 3 API
+   -
+   In case one of them didn't work. You still have lots of options.
+- Multiple Files Upload
+   -
+   You can share multiple files or even your Whole Directory and it's Contents.
+- Supports File Encryption
+   -
+   You can also encrypt your files before sharing it to others.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Installation
+Depends on your linux distro
+> pkg install git -y
 
-# Header 1
-## Header 2
-### Header 3
+> git clone https://github.com/ZechBron/FileSharingTerminal.git
 
-- Bulleted
-- List
+> cd FileSharingTerminal
 
-1. Numbered
-2. List
+> bash setup.sh
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## To Run
+> bash sharefile.sh
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### EXAMPLES
+- Uploading One File with Encryption
+   -
+   ![Example of Uploading One File w/ Encryption](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/Upload-One-File-with-Encryption.jpg)
+- Uploading Multiple Files
+   -
+   ![Example of Multiple Files Uploads](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/Multiple-File-Uploads.jpg)
+- Uploading Directory and its Contents
+   -
+   ![Example of Uploading Directory and its Contents](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/Directory-and-Contents.jpg)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZechBron/FileSharingTerminal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Two Ways to Download in Terminal
+__1st Way__
+> wget https://download-link
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+__2nd Way__
+> curl -O https://download-link
+
+
+### Decrypting a file
+Just type this command in your terminal and enter the password:
+> ccdecrypt filename.txt.cpt
+
+Here's the example:
+
+![Decrypting A File](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/Decrypting-File.png)
+
+__OR__
+
+> unzip filename.zip
+
+If it's a zip file.
+
+
+__API USED:__
+- BashUpload.com
+- Filepush.co
+- Transfer.sh
+
+
+__TOOLS USED:__
+- ccrypt and zip
+
+
+__NOTE:__
+If you encounter an issue, if you want to correct something, if have any feedbacks, just say it guyz. 

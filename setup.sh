@@ -9,18 +9,21 @@ apt-get install curl -y
 apt-get install unzip -y
 apt-get install zip -y
 apt-get install ccrypt -y
+chmod +x sharefile.sh
 
 elif [ $os = 2 ]; then
 pkg install curl -y
 pkg install unzip -y
 pkg install zip -y
 pkg install ccrypt -y
+chmod +x sharefile.sh
 
 elif [ $os = 3 ]; then
 apt install curl -y
 apt install unzip -y
 apt install zip -y
 apt install ccrypt -y
+chmod +x sharefile.sh
 
 else
 clear

@@ -1,4 +1,5 @@
-# File Sharing Terminal
+# File Sharing Terminal [![Zech Bron](https://img.shields.io/badge/author-Zech-blue.svg)](https://github.com/ZechBron)
+
 You can now share your files using linux terminal with this simple code of mine.
 
 ![File Sharing Terminal](https://github.com/ZechBron/FileSharingTerminal/blob/FileSharingTerminal-images/FileSharingTerminal-By-zeCh.png)
